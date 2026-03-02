@@ -23,4 +23,15 @@ filaTriangulo(3)
 filaTriangulo(4)
 
 //pruebas Función Balanceado
+balanceado(":-)".toList)
+balanceado("())(".toList)
+balanceado("(if (zero? x) max (/ 1 x))".toList)
+balanceado("()()()()()()()()()()()()()()()()()()()()()()()()".toList)
+balanceado("Yo le dije (que no esta hecho (aun)). \n (Pero no me escucho)".toList)
+
+//Pruebas Función CambioMonedas
+cambioMonedas(4,List(1,2))
+cambioMonedas(500,List(100,200))
+cambioMonedas(1000,List(100,200))
+cambioMonedas(1001,List(100,200))
 
